@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body class="h-14 bg-gradient-to-r from-purple-500 to-pink-500">
+    <section>
+      <div class="container max-w-4xl mx-auto mt-52">
+        <div class="flex flex-col items-center md:flex-row md:justify-center">
+          <div class="bg-gray-500 py-10 px-32 relative">
+            <img
+              src="img/dice-1.png"
+              alt=""
+              class="images w-20 absolute top-32 -right-9" />
+            <a
+              class="btn-restart absolute top-0 -right-16 uppercase font-bold rounded-full mt-5 px-6 py-3 bg-white"
+              >new game</a
+            >
+            <!-- Player 1 -->
+            <h1 class="player--0 mt-10 text-3xl uppercase text-gray-800">
+              player 1
+            </h1>
+            <p class="score--0 text-center mt-5 text-6xl text-red-500">43</p>
+            <div class="relative">
+              <div class="bg-red-500 text-center p-6 mt-20 rounded-md relative">
+                <p class="current-name-0 text-lg font-bold text-gray-800">
+                  current
+                </p>
+                <p class="current-score-0 text-xl font-bold text-gray-800">0</p>
+              </div>
+              <button class="absolute top-2 -right-52">
+                <a
+                  class="dice uppercase font-bold rounded-full mt-5 px-8 py-3 bg-white"
+                  >roll dice</a
+                >
+              </button>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="bg-red-400 py-10 px-32">
+            <h1 class="player--1 mt-10 text-3xl uppercase text-gray-800">
+              player 2
+            </h1>
+            <p class="score--1 text-center mt-5 text-6xl text-red-500">24</p>
+
+            <div class="relative">
+              <div class="bg-red-500 text-center p-6 mt-20 rounded-md relative">
+                <p class="current-name-1 text-lg font-bold text-gray-800">
+                  current
+                </p>
+                <p class="current-score-1 text-xl font-bold text-gray-800">0</p>
+              </div>
+              <button class="absolute top-0 -left-44 mt-16">
+                <a
+                  class="hold uppercase font-bold rounded-full mt-6 px-8 py-3 bg-white"
+                  >hold</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/script.js" defer></script>
+    <title>07 - JavaScript in the Browser DOM and Events Fundamentals</title>
+  </head>
+  <body class="bg-black">
+    <section class="">
+      <div class="container mx-auto md:my-10">
+        <div class="flex items-center justify-between">
+          <div>
+            <button
+              class="again px-12 py-4 bg-white text-gray-700 text-4xl font-bold">
+              Again!
+            </button>
+          </div>
+          <p class="between text-white text-xl font-bold tracking-wide">
+            ( Between 1 and 20 )
+          </p>
+        </div>
+        <!-- h1 -->
+        <div class="text-center text-white mt-20">
+          <h1 class="title--h1 text-8xl font-bold italic">Guess My Number</h1>
+        </div>
+        <!-- border-b -->
+        <div class="mt-40">
+          <div class="border-b border-4 border-white"></div>
+          <div class="flex items-center justify-center">
+            <h1 class="text-gray-700 px-16 py-3 text-8xl bg-white -mt-16">
+              <span class="number font-bold">?</span>
+            </h1>
+          </div>
+        </div>
+        <!-- Input -->
+        <div class="flex items-center justify-between max-w-4xl mx-auto">
+          <!-- Input -->
+          <div class="mt-20">
+            <div class="border-2 py-6 bg-transparent font-bold">
+              <input
+                type="number"
+                class="guess outline-none bg-black text-white text-2xl text-center" />
+            </div>
+            <div class="mt-10 flex items-center justify-center">
+              <button
+                class="check px-16 py-4 bg-white text-gray-800 text-2xl font-bold">
+                Check!
+              </button>
+            </div>
+          </div>
+          <div class="text-white font-bold text-3xl mt-20">
+            <p class="message mb-10 tracking-wider">Start guessing...</p>
+            <p class="mb-5">
+              Score :
+
+              <span class="score ml-5 font-bold tracking-wider"> 20 </span>
+            </p>
+            <p>
+              Highscore :
+
+              <span class="highScore ml-5 font-bold tracking-wider"> 0 </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
